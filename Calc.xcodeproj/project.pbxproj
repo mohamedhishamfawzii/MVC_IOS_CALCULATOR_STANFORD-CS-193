@@ -56,15 +56,23 @@
 		77C0B0581F1134F3001F7931 /* Calc */ = {
 			isa = PBXGroup;
 			children = (
-				77C0B0591F1134F3001F7931 /* AppDelegate.swift */,
 				77C0B05B1F1134F3001F7931 /* ViewController.swift */,
 				77C0B05D1F1134F3001F7931 /* Main.storyboard */,
-				77C0B0631F1134F3001F7931 /* Assets.xcassets */,
-				77C0B0651F1134F3001F7931 /* LaunchScreen.storyboard */,
-				77C0B0681F1134F3001F7931 /* Info.plist */,
-				77C0B0601F1134F3001F7931 /* Calc.xcdatamodeld */,
+				77C0B06E1F113B14001F7931 /* supporting files */,
 			);
 			path = Calc;
+			sourceTree = "<group>";
+		};
+		77C0B06E1F113B14001F7931 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				77C0B0681F1134F3001F7931 /* Info.plist */,
+				77C0B0601F1134F3001F7931 /* Calc.xcdatamodeld */,
+				77C0B0591F1134F3001F7931 /* AppDelegate.swift */,
+				77C0B0631F1134F3001F7931 /* Assets.xcassets */,
+				77C0B0651F1134F3001F7931 /* LaunchScreen.storyboard */,
+			);
+			name = "supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +107,7 @@
 				TargetAttributes = {
 					77C0B0551F1134F2001F7931 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NJ984G2TD6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -264,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NJ984G2TD6;
 				INFOPLIST_FILE = Calc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hisham.Calc;
@@ -276,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NJ984G2TD6;
 				INFOPLIST_FILE = Calc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hisham.Calc;

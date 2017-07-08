@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+    
+    
+    
+  //underscor before the name means that there is no extenal variable 
+    @IBAction func touchDigit(_ sender: UIButton) {
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+//    func drawHorizontalLine ( from posX: Double , to posY: Double , using color: UIColor){}
+    
+    
 }
 
